@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&family=Nunito:wght@600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900&family=Palanquin+Dark&display=swap');
+
+
+
 .App {
   text-align: center;
 }
@@ -32,7 +37,58 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+/*---------------------------------------Style-------------------- */
+
+:root {
+  --main-txt-color: #1E80F3;
+  --main-txt2-color: #667085;
+  --main-txt3-color: #111E2E;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 200vh;
+}
+
+/* .container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px
+} */
+
+section{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 150px;
+  padding-left: 150px
+}
+
+@media (max-width: 560px) {
+  section{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 900px) {
+  section{
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
