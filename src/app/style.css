@@ -58,6 +58,7 @@ nav {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.017em;
+    margin-top: 90px;
 }
 
 .playstore-btn {
@@ -72,8 +73,8 @@ nav {
 
 .home-back-img {
     margin-top: 40px;
-    width: 70%;
-    height: 600px;
+    width: 65%;
+    height: 90%;
     position: relative;
     float: right;
 }
@@ -113,10 +114,12 @@ nav {
 }
 
 .card-para {
+    font-family: 'Inter';
     width: 80%;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 35px;
+    margin-top: 15px;
     color: var(--main-txt2-color);
 }
 
@@ -126,7 +129,7 @@ nav {
     }
 }
 
-.card {
+.card-background {
     background: #F2F8FF;
 }
 
@@ -135,6 +138,7 @@ nav {
     align-items: center;
     justify-content: center;
     background: #ffffff;
+    border-radius: 9px;
     width: 65px;
     height: 65px;
 }
@@ -155,11 +159,172 @@ nav {
     height: 630px;
 }
 
-.about-back-color{
-background: #DDDDDD;
+@media (max-width: 450px) {
+    .about-back-img {
+        margin-top: 30px;
+        width: 345px;
+        height: 100%;
+    }
+
 }
 
-.about-imgback-color{
-    background:  linear-gradient(360deg, rgba(255, 255, 255, 0.39) 0%, rgba(30, 128, 243, 0) 254.67%);
+
+.about-imgback-color {
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.39) 0%, rgba(30, 128, 243, 0) 254.67%);
     border-radius: 27px;
+}
+
+.about-para {
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+    /* font-weight: 400; */
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    color: var(--main-txt2-color);
+}
+
+
+
+/* ---------------------------------------------------------Effect-Tool-------------------------------------- */
+
+.effect-tool {
+    width: 83%;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+}
+
+.effect-background {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(33, 219, 40, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.effect-card-para {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 15px;
+    color: var(--main-txt2-color);
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    border-radius: 20px;
+}
+
+.vector-icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E9F8D7;
+    border-radius: 13px;
+    width: 70px;
+    height: 70px;
+}
+
+.vector-icon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D7F8EA;
+    border-radius: 13px;
+    width: 70px;
+    height: 70px;
+}
+
+.vector-icon3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5D7F8;
+    border-radius: 13px;
+    width: 70px;
+    height: 70px;
+}
+
+.vector-icon4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CFF6FF;
+    border-radius: 13px;
+    width: 70px;
+    height: 70px;
+}
+
+.effect-card-content {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-card-para {
+    text-align: center;
+    width: 35%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 8px;
+    color: var(--main-txt2-color);
+}
+
+.img-card-degree {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: var(--main-txt2-color);
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    background: #E7F2FF;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.img-card-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+@media (max-width: 450px) {
+    .img-card-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 770px) {
+    .img-card-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*----------------------------------------------------------- Contact---------------------------------------- */
+
+.name-input {
+    width: 375px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-full-boxes{
+    width: 390px;
+}
+
+.contact-background{
+    background: #E9F3FF;
+    padding: 30px;
 }

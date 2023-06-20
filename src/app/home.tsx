@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           </p>
           <button className="credo-btn mt-5">Download App</button>
 
-          <h4 className="available-head mt-5">Available on</h4>
+          <h4 className="available-head">Available on</h4>
           <div className="mt-4">
             <img
               className="playstore-btn"

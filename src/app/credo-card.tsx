@@ -7,7 +7,7 @@ const Credocard: React.FC = () => {
 <div>
     <h2 className="heal-life-header">So There is the Plans to lead healthy Life</h2>
 </div>
-      <div className="card p-5" style={{borderRadius:'15px'}}>
+      <div className="card card-background p-5" style={{borderRadius:'15px'}}>
         <div className="row ms-lg-5">
           <div className="col-lg-4 col-md-6 col-12 card-content mt-3">
             <div className="vector-icon">

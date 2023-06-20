@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="row">
         <div className="col-lg-6 col-12 about-back-color">
           <h2 className="heal-life-header">Be Aware About Your Body</h2>
-          <p className="credo-para mt-3">
+          <p className="about-para mt-3">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock, <br></br>
