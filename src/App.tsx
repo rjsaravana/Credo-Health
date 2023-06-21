@@ -4,6 +4,7 @@ import Contact from "./app/contact";
 import Credocard from "./app/credo-card";
 import EffectTool from "./app/effective-tool";
 import Home from "./app/home";
+import UserReview from "./app/userreview";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <EffectTool />
       <Contact />
+      <UserReview />
     </>
   );
 }

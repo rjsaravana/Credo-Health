@@ -23,17 +23,18 @@ nav {
 .credo-head {
     font-family: 'Nunito' !important;
     font-weight: 700;
-    font-size: 68px;
+    font-size: 54px;
     line-height: 66px;
     letter-spacing: -0.015em;
+
     color: var(--main-txt3-color);
 }
 
 .credo-para {
-    width: 85%;
+    width: 80%;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 17px;
+    line-height: 28px;
     letter-spacing: -0.015em;
     color: var(--main-txt2-color);
 }
@@ -55,26 +56,26 @@ nav {
 
 .available-head {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.017em;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .playstore-btn {
-    width: 155px;
-    height: 64px;
+    width: 140px;
+    height: 58px;
 }
 
 .appstore-btn {
-    width: 155px;
-    height: 48px;
+    width: 140px;
+    height: 46px;
 }
 
 .home-back-img {
     margin-top: 40px;
-    width: 65%;
-    height: 90%;
+    width: 60%;
+    height: 88%;
     position: relative;
     float: right;
 }
@@ -82,12 +83,12 @@ nav {
 .home-add-img {
     margin-top: 40px;
     position: absolute;
-    width: 100px;
-    height: 140px;
+    width: 80px;
+    height: 120px;
 }
 
 .home-back-color {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(245, 242, 242, 0) 111.4%);
+    background-color: (180deg, rgba(255, 255, 255, 0.23) 0%, rgba(245, 242, 242, 0) 111.4%);
 }
 
 
@@ -98,6 +99,7 @@ nav {
     font-size: 36px;
     line-height: 63px;
     letter-spacing: -0.015em;
+    margin-top: 30px;
     color: var(--main-txt3-color);
 }
 
@@ -105,29 +107,46 @@ nav {
     width: 33%;
 }
 
+.card-content-margin {
+    margin-top: 50px !important;
+}
+
+
 .card-headline {
     font-weight: 700;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 22px;
+    line-height: 30px;
     letter-spacing: -0.017em;
     color: var(--main-txt3-color);
 }
 
 .card-para {
     font-family: 'Inter';
-    width: 80%;
+    width: 90%;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 28px;
     margin-top: 15px;
     color: var(--main-txt2-color);
+}
+
+@media (max-width: 770px) {
+    .card-content {
+        width: 50%;
+    }
 }
 
 @media (max-width: 450px) {
     .card-content {
         width: 100%;
     }
+
+    .card-content-margin {
+        margin-top: 0px !important;
+    }
+
 }
+
 
 .card-background {
     background: #F2F8FF;
@@ -139,8 +158,13 @@ nav {
     justify-content: center;
     background: #ffffff;
     border-radius: 9px;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
+}
+
+.vector-img {
+    width: 245x;
+    height: 25px;
 }
 
 
@@ -148,15 +172,15 @@ nav {
 
 .Download-head {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20.4231px;
     line-height: 28px;
     letter-spacing: -0.017em;
     color: var(--main-txt2-color);
 }
 
 .about-back-img {
-    width: 725px;
-    height: 630px;
+    width: 539px;
+    height: 450px;
 }
 
 @media (max-width: 450px) {
@@ -176,10 +200,10 @@ nav {
 
 .about-para {
     font-family: 'Roboto', sans-serif;
-    width: 85%;
-    /* font-weight: 400; */
-    font-size: 24px;
-    line-height: 40px;
+    width: 79%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
     letter-spacing: -0.015em;
     color: var(--main-txt2-color);
 }
@@ -189,10 +213,10 @@ nav {
 /* ---------------------------------------------------------Effect-Tool-------------------------------------- */
 
 .effect-tool {
-    width: 83%;
+    width: 95%;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 42px;
     letter-spacing: -0.015em;
 }
 
@@ -203,8 +227,8 @@ nav {
 .effect-card-para {
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 30px;
     margin-top: 15px;
     color: var(--main-txt2-color);
 }
@@ -216,14 +240,19 @@ nav {
     border-radius: 20px;
 }
 
+.vector-card-img {
+    width: 28px;
+    height: 30px;
+}
+
 .vector-icon1 {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #E9F8D7;
     border-radius: 13px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .vector-icon2 {
@@ -232,8 +261,8 @@ nav {
     justify-content: center;
     background: #D7F8EA;
     border-radius: 13px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .vector-icon3 {
@@ -242,8 +271,8 @@ nav {
     justify-content: center;
     background: #E5D7F8;
     border-radius: 13px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .vector-icon4 {
@@ -252,32 +281,38 @@ nav {
     justify-content: center;
     background: #CFF6FF;
     border-radius: 13px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .effect-card-content {
-    margin-top: 130px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.img-car-header {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center
+}
+
 .img-card-para {
     text-align: center;
     width: 35%;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 28px;
     margin-top: 8px;
     color: var(--main-txt2-color);
 }
 
 .img-card-degree {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: -0.015em;
     color: var(--main-txt2-color);
 }
@@ -316,15 +351,15 @@ nav {
 
 .contact-head {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 63px;
+    font-size: 26px;
+    line-height: 48px;
     letter-spacing: -0.015em;
     color: var(--main-txt3-color);
 }
 
 .name-input {
-    width: 395px;
-    height: 55px;
+    width: 287px;
+    height: 50px;
     background: #FFFFFF;
     border-radius: 5px;
     padding: 14px;
@@ -333,7 +368,7 @@ nav {
 
 .input-full-boxes {
     width: 100%;
-    height: 55px;
+    height: 50px;
     background: #FFFFFF;
     border-radius: 5px;
     border: none;
@@ -343,7 +378,7 @@ nav {
     border-radius: 5px;
     border: none;
     width: 100%;
-    height: 120px;
+    height: 100px;
 }
 
 .contact-background {
@@ -356,13 +391,13 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 19px 147px;
-    border-radius: 8px;
-    font-size: 20px;
+    border-radius: 6px;
+    font-size: 16px;
     border: none;
     color: #ffffff;
     background-color: var(--main-txt-color);
     width: 100%;
-    height: 60px;
+    height: 54px;
 }
 
 
@@ -410,15 +445,15 @@ nav {
 
 .contact-blue-background {
     background: var(--main-txt-color);
-    padding: 65px;
+    padding-left: 45px;
 }
 
 .contact-card-para {
     width: 85%;
     color: #ffffff !important;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 16px;
+    line-height: 30px;
     margin-top: 8px;
     color: var(--main-txt2-color);
 }
@@ -426,10 +461,85 @@ nav {
 .contact-header {
     color: #ffffff;
     width: 80%;
-    font-size: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
 }
 
 .contact-image {
-    width: 280px;
-    Height: 250px;
+    width: 240px;
+    Height: 220px;
+}
+
+
+
+/* -----------------------------------------User-Review----------------------------- */
+
+.use-review {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.review-card1 {
+    width: 80%;
+    padding: 40px;
+    background: #F2F8FF;
+    margin-right: 50px;
+
+}
+
+.review-card2 {
+    width: 80%;
+    padding: 40px;
+    background: #F2F8FF;
+}
+
+.review-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    margin-top: 22px;
+    width: 92%;
+}
+
+.review-first-header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 15px;
+}
+
+.review-second-header {
+    font-weight: 400;
+    font-size: 14.8863px;
+    line-height: 17px;
+    margin-left: 15px;
+}
+
+@media (max-width: 450px) {
+    .use-review {
+        display: block;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .review-card1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .review-card2 {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+
+/* ---------------------------------------------------------Menu----------------------------------------- */
+
+.menu-background{
+    background-image: url('/public/assets/last-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
             </select>
           </div>
 
-          <div className="mt-5">
+          <div className="mt-4">
             <textarea
               className="p-3 textarea-full-boxes"
               placeholder="You can share your Thoughts"

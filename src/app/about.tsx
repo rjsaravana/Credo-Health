@@ -2,7 +2,7 @@ import "./style.css";
 
 const About: React.FC = () => {
   return (
-    <section className="mt-5 pt-5" id="About">
+    <section className="mt-5" id="About">
       <div className="row">
         <div className="col-lg-6 col-12 about-back-color">
           <h2 className="heal-life-header">Be Aware About Your Body</h2>
@@ -16,8 +16,8 @@ const About: React.FC = () => {
             Finibus Bonorum et Malorum" by Cicero are also reproduced in their
             exact original form, accompanied
           </p>
-          <h4 className="Download-head mt-5">Download here</h4>
-          <div className="mt-4">
+          <h4 className="Download-head mt-3">Download here</h4>
+          <div className="mt-3">
             <img
               className="playstore-btn"
               src="../assets/icons/play-store.png"
@@ -31,7 +31,7 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="about-imgback-color col-lg-6 col-12 d-flex justify-content-center mb-5">
+        <div className="about-imgback-color col-lg-6 col-12 mt-5 d-flex justify-content-center">
           <img
             className="about-back-img"
             src="../assets/Group1.png"

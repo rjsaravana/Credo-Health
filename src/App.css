@@ -77,8 +77,8 @@ section{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 150px;
-  padding-left: 150px
+  padding-right: 110px;
+  padding-left: 110px
 }
 
 @media (max-width: 560px) {
