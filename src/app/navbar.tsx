@@ -5,9 +5,9 @@ const Navbar:React.FC = () => {
       <div className="nav-title">
         <nav className="navbar-expand-lg" id="navbar">
           <h4 className="logo">
-            Credo health <br />
+             <span style={{fontSize:'24',fontWeight:'800',color:'#1E80F3'}}>Credo</span> health <br />
             <img src="../assets/icons/Ellipse.png" alt="img" />
-            <span>Decoding Chronic Care</span>
+            <span className="nav-decoding">Decoding Chronic Care</span>
 
           <button
             className="navbar-toggler menu-btn"
