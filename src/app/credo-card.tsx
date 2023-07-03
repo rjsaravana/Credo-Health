@@ -18,7 +18,7 @@ const Credocard: React.FC = () => {
             <div className="vector-icon">
               <img className='vector-img' src="../assets/icons/Vector1.png" alt="Vector Img" />
             </div>
-            <h3 className="card-headline mt-4">Precision Care Plan</h3>
+            <h3 className="card-headline mt-4">Precision Care Plan cbfgh xdgfdhb</h3>
             <p className="card-para">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat{" "}
