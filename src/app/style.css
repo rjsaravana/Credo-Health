@@ -18,7 +18,7 @@ nav {
     background-color: #FFFFFF;
 }
 
-.nav-decoding{
+.nav-decoding {
     color: var(--main-txt3-color);
     font-size: 15px;
     font-weight: 500;
@@ -34,7 +34,6 @@ nav {
     font-size: 54px;
     line-height: 66px;
     letter-spacing: -0.015em;
-
     color: var(--main-txt3-color);
 }
 
@@ -96,10 +95,9 @@ nav {
 }
 
 .home-back-color {
-    background-color: (180deg, rgba(255, 255, 255, 0.23) 0%, rgba(245, 242, 242, 0) 111.4%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(245, 242, 242, 0.00) 100%);
     margin-top: 70px;
 }
-
 
 /*-------------------------------------------------------CredoCard--------------------------------------------------*/
 
@@ -449,6 +447,10 @@ nav {
     .img-card-content {
         display: flex;
         flex-direction: column;
+    }
+    .name-input {
+        width: 280px;
+        margin-left: 0 !important;
     }
 }
 

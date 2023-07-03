@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
               type="text"
             />
             <select
-              className="name-input mt-3 ms-4"
+              className="name-input mt-3 ms-3"
               aria-label="Default select example"
             >
               <option selected>Select City</option>
@@ -25,6 +25,7 @@ const Contact: React.FC = () => {
               <option value="2">Erode</option>
               <option value="3">Trichy</option>
               <option value="4">Salem</option>
+              <option value="5">Namakkal</option>
             </select>
           </div>
           <div className="input-boxes">
@@ -34,7 +35,7 @@ const Contact: React.FC = () => {
               type="text"
             />
             <input
-              className="name-input  mt-3 ms-4"
+              className="name-input  mt-3 ms-3"
               placeholder="Email"
               type="text"
             />
